@@ -199,8 +199,8 @@ video {
     }
 
     .signalstatus {
-        width: 15%;
-        height: 15%;
+        width: 17%;
+        height: 17%;
         padding-left: 8px;
         padding-right: 8px;
         background: #144BB8;
@@ -218,9 +218,9 @@ video {
     }
 
     .vector {
-        width: 30px;
-        height: 31px;
-        left: 0px; top: 8px;
+        width: 33px;
+        height: 33px;
+        left: 0px; top: 10px;
         position: absolute;
     }
 
