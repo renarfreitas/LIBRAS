@@ -231,6 +231,12 @@ video {
         justify-content: flex-start;
         align-items: flex-start;
         display: inline-flex;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .video-container {
+        padding: 17px;
     }
 
     .video-container .video {
