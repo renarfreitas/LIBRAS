@@ -137,7 +137,7 @@ video {
     top: 50%; left: 50%;
     transform:  translate(-50%, -50%);
     height: auto;
-    width: 50%;
+    width: 70%;
     box-shadow: 0 0 0 100vh #144BB8;
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
