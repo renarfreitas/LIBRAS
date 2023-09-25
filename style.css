@@ -156,10 +156,3 @@ video {
     place-content: center;
     height: 100px;
 }
-.close {
-    position: absolute;
-    top: 100px;
-    right: 60px;
-    width: 0px;
-    cursor: pointer;
-}
