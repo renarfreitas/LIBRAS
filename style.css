@@ -194,7 +194,8 @@ video {
         font-family: Sora;
         font-weight: 400;
         line-height: 21px;
-        word-wrap: break-word
+        word-wrap: break-word;
+        margin-bottom: 0px;
     }
 
     .signalstatus {
@@ -207,7 +208,7 @@ video {
         align-items: center;
         display: inline-flex;
         top: 1%;
-        left: 101%;
+        left: 103%;
     }
 
     .signalanguage {
