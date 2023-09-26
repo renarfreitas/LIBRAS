@@ -145,7 +145,7 @@ video {
     top: 50%; left: 50%;
     transform:  translate(-50%, -50%);
     height: auto;
-    width: 70%;
+    width: 50%;
     box-shadow: 0 0 0 100vh #144BB8;
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
@@ -161,8 +161,20 @@ video {
     flex-shrink: 0;
     background-color: #144BB8;
     display: grid;
-    place-content: center;
+    place-content: left;
     height: 100px;
+}
+
+.CcrMobilityLogos {
+    width: 100%;
+    height: 100%;
+    padding-top: 2.65px;
+    padding-bottom: 2.74px;
+    padding-left: 16.94px;
+    padding-right: 17.40px;
+    justify-content: left;
+    align-items: center;
+    display: inline-flex
 }
 
 @media screen and (max-width:565px) {
@@ -243,6 +255,11 @@ video {
         margin: 0.2rem;
     }
 
+    .video-container .video .active {
+        width: 70%;
+
+    }
+
     .container {
         flex: 1 0 auto;
         display: flex;
@@ -250,5 +267,9 @@ video {
         flex-wrap: wrap;
         padding: 1%;
         gap: 1px;
+    }
+
+    .CcrMobilityLogos {
+        justify-content: center;
     }
 }
