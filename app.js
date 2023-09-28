@@ -11,5 +11,6 @@ video.forEach(play => play.addEventListener('click', () => {
 
         location.reload()
     }
-    location.reload()
 }))
+
+location.reload()
