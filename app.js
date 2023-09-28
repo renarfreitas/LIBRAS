@@ -8,7 +8,7 @@ video.forEach(play => play.addEventListener('click', () => {
     } else {
         play.pause()
         play.currentTime = 0
-        
+
         location.reload()
     }
 }))

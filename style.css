@@ -123,6 +123,7 @@ video {
     height: 14.7rem;
     margin: 1rem;
     overflow: hidden;
+    cursor: pointer;
 }
 
 .video-container .video video {
