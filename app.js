@@ -5,6 +5,8 @@ video.forEach(play => play.addEventListener('click', () => {
 
     if(play.paused ){
         play.play() 
+
+        location.reload()
     } else {
         play.pause()
         play.currentTime = 0
